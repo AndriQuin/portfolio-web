@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import profile from '../assets/profile.png'
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
           <Card style={{ width: '18rem' }} className='h-80'>
               <Card.Img
                 variant="top"
-                src="src/assets/profile.png"
+                src={profile}
                 style={{
                   height: '100%',       
                   width: '100%',         
