@@ -3,6 +3,12 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import reactJSpng from '../assets/reactJS.png'
+import MySQLpng from '../assets/MySQL.png'
+import reactbspng from '../assets/reactbs.png'
+import jetpackcomposepng from '../assets/jetpackcompose.png'
+
+
 
 const Skills = () => {
   return (
@@ -14,7 +20,7 @@ const Skills = () => {
           <Card style={{ width: '100%' }} className='h-100'>
             <Card.Img
               variant="top"
-              src="src/assets/reactJS.png"
+              src={reactJSpng}
               style={{
                 height: '150px',       
                 width: '100%',         
@@ -36,7 +42,7 @@ const Skills = () => {
           <Card style={{ width: '100%' }} className='h-100'>
             <Card.Img
               variant="top"
-              src="src/assets/MySQL.png"
+              src={MySQLpng}
               style={{
                 height: '150px',       
                 width: '100%',         
@@ -58,7 +64,7 @@ const Skills = () => {
           <Card style={{ width: '100%' }} className='h-100'>
             <Card.Img
               variant="top"
-              src="src/assets/reactbs.png"
+              src={reactbspng}
               style={{
                 height: '150px',       
                 width: '100%',         
@@ -80,7 +86,7 @@ const Skills = () => {
           <Card style={{ width: '100%' }} className='h-100'>
             <Card.Img
               variant="top"
-              src="src/assets/jetpackcompose.png"
+              src={jetpackcomposepng}
               style={{
                 height: '150px',       
                 width: '100%',         
