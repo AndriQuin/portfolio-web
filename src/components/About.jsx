@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import ccsImage from '../assets/ccs.png'
 
 const About = () => {
   return (
@@ -28,7 +29,7 @@ const About = () => {
           <Card style={{ width: '18rem' }} className='h-80'>
               <Card.Img
                 variant="top"
-                src="src/assets/ccs.png"
+                src={ccsImage}
                 style={{
                   height: '100%',       
                   width: '100%',         
