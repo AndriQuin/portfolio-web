@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import profile from '../assets/profile.png'
+import profile from '../assets/me.png.jpg'
 
 const Hero = () => {
   return (
